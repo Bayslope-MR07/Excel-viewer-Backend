@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.sqlite3
+db.sqlite3
+build_temp.sqlite3
+
+# Uploaded files
+media/
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Static files collected
+staticfiles/
+
+# OS Metadata
+.DS_Store
+Thumbs.db
